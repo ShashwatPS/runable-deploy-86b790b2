@@ -2,48 +2,48 @@
 @import "tw-animate-css";
 
 :root {
-  --radius: 1rem;
-  --background: oklch(0.985 0.008 95);
-  --foreground: oklch(0.26 0.03 95);
+  --radius: 0.75rem;
+  --background: oklch(0.972 0.002 264);
+  --foreground: oklch(0.25 0.005 264);
 
-  --card: oklch(0.99 0.006 95);
-  --card-foreground: oklch(0.26 0.03 95);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.25 0.005 264);
 
-  --popover: oklch(0.995 0.004 95);
-  --popover-foreground: oklch(0.26 0.03 95);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.25 0.005 264);
 
-  --primary: oklch(0.6 0.12 190);
-  --primary-foreground: oklch(0.98 0.003 95);
+  --primary: oklch(0.58 0.19 39);
+  --primary-foreground: oklch(1 0 0);
 
-  --secondary: oklch(0.95 0.015 150);
-  --secondary-foreground: oklch(0.3 0.03 95);
+  --secondary: oklch(0.96 0.002 264);
+  --secondary-foreground: oklch(0.25 0.005 264);
 
-  --muted: oklch(0.94 0.01 95);
-  --muted-foreground: oklch(0.52 0.025 95);
+  --muted: oklch(0.96 0.002 264);
+  --muted-foreground: oklch(0.55 0.015 264);
 
-  --accent: oklch(0.93 0.03 75);
-  --accent-foreground: oklch(0.26 0.03 95);
+  --accent: oklch(0.99 0.005 39);
+  --accent-foreground: oklch(0.25 0.005 264);
 
   --destructive: oklch(0.55 0.24 25);
-  --destructive-foreground: oklch(0.98 0.003 95);
-  --border: oklch(0.9 0.01 95);
-  --input: oklch(0.94 0.012 95);
-  --ring: oklch(0.6 0.12 190);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.91 0.003 264);
+  --input: oklch(0.91 0.003 264);
+  --ring: oklch(0.58 0.19 39);
 
-  --chart-1: oklch(0.6 0.12 190);
+  --chart-1: oklch(0.58 0.19 39);
   --chart-2: oklch(0.66 0.1 125);
   --chart-3: oklch(0.63 0.08 65);
   --chart-4: oklch(0.7 0.11 30);
   --chart-5: oklch(0.64 0.1 310);
 
-  --sidebar: oklch(0.99 0.006 95);
-  --sidebar-foreground: oklch(0.26 0.03 95);
-  --sidebar-primary: oklch(0.6 0.12 190);
-  --sidebar-primary-foreground: oklch(0.98 0.003 95);
-  --sidebar-accent: oklch(0.94 0.012 95);
-  --sidebar-accent-foreground: oklch(0.3 0.03 95);
-  --sidebar-border: oklch(0.9 0.01 95);
-  --sidebar-ring: oklch(0.6 0.12 190);
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: oklch(0.25 0.005 264);
+  --sidebar-primary: oklch(0.58 0.19 39);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.96 0.002 264);
+  --sidebar-accent-foreground: oklch(0.25 0.005 264);
+  --sidebar-border: oklch(0.91 0.003 264);
+  --sidebar-ring: oklch(0.58 0.19 39);
 }
 
 :root[data-theme="dark"] {
@@ -139,10 +139,20 @@
   html,
   body {
     height: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
   body {
     @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+  }
+
+  code, pre, .mono {
+    font-family: 'Roboto Mono', 'SF Mono', Monaco, 'Cascadia Code', monospace;
   }
 }
 

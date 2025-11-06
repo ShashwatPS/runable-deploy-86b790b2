@@ -1,13 +1,13 @@
 {
   "site": {
-    "name": "Minimal Starter",
-    "tagline": "Your Creative Canvas",
-    "description": "A clean, minimal starter template providing the perfect foundation for your next project. Built with modern tools and ready for your creativity.",
+    "name": "Simple",
+    "tagline": "Clean. Minimal. Focused.",
+    "description": "A beautifully simple website built with modern design principles and clean aesthetics.",
     "ogImage": "/og-image.png",
     "twitterHandle": "",
     "contact": {
-      "email": "contact@example.com",
-      "company": "Your Company",
+      "email": "hello@simple.co",
+      "company": "Simple",
       "address": ""
     },
     "legal": {
@@ -16,6 +16,6 @@
     }
   },
   "theme": {
-    "defaultTheme": "dark"
+    "defaultTheme": "light"
   }
 }
